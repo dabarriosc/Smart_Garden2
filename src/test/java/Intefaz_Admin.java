@@ -60,6 +60,7 @@ public class Intefaz_Admin extends javax.swing.JFrame {
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new Intefaz_Admin().setVisible(true);
             }
